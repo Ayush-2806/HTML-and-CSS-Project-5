@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+.hamer1{
+    display: none;
+    height: 20px;
+    width: 20px;
+}
+
+.list{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 10px;
+}
+
+.list-items{
+    padding: 5px 10px;
+    background: rgb(100, 100, 224);
+    border-radius: 15px;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    gap: 20px;
+    
+}
+
+main{
+    margin-bottom:20px ;
+}
+
+
+
+.i{
+    height:20px;
+    width: 20px;
+}
+
+.im{
+    height: 200px;
+    width: 200px;
+}
+
+
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    
+    
+}
+
+
+
+.da h2{
+    color: rgb(197, 197, 89);
+    font-size: 18px;
+    padding-top: 10px;
+    
+}
+
+.da h1{
+    font-size: 30px; 
+}
+
+.sec1{
+    text-align: center;
+    margin-top: 25px;
+   
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    
+     
+    
+}
+.horizontal{
+    height: 2px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+
+.ima{
+    height: 150px;
+    width: 150px;
+}
+
+.mai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.ma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.pai{
+    font-size: 10px;
+}
+
+ .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+} 
+
+.horizontal1{
+    height: 2px;
+    width: 85px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.lo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+@media  screen  and (max-width:576px) {
+    .list{
+        display: none;
+    }
+
+    .hamer1{
+        display: block;
+    }
+
+    .sec{
+        display: block;
+        text-align: center;
+    }
+
+    .d{
+        text-align: center;
+        display: block;
+    }
+
+    .i{
+        height: 35px;
+        width: 35px;
+    }
+
+   .sec2{
+    display: block;
+    text-align: center;
+   }
+
+   .ma{
+    display: block;
+    text-align: center;
+   }
+
+   .mai{
+    display: block;
+    text-align: center;
+   }
+
+    
+}
+
+
+
+
+
